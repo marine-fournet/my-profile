@@ -1,0 +1,88 @@
+
+/*general properties*/
+
+body{
+	background-color: #5b8c85;
+}
+
+h1,h2{
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	color: #5b8c85;
+}
+
+p{
+	font-family: 'Lato', sans-serif;
+	color: #434e52;
+}
+	
+
+/*id properties*/
+
+#photo-round {
+	width:200px; 
+	border-radius : 50%;
+}
+
+#introduction{
+	margin-bottom: 30px;
+}
+
+#btn-blue{
+	text-decoration : none;
+	background-color :#434e52;
+	color : white;
+	padding: 10px 15px;
+	font-family: 'Lato', sans-serif;
+	border-radius:3px;
+}
+	
+#list-horizontal li {
+	list-style: none;
+	display:inline;
+	text-decoration : none;
+}
+
+#list-horizontal i {
+	color:  #434e52;
+	font-size: 40px;
+	padding-left: 11px;
+	padding-right: 40px;
+
+}
+
+#list-horizontal i:hover {
+	color: #5b8c85;
+	transition: 0.2s;
+}
+
+
+/*class properties*/
+
+.container{
+	width:700px;
+	margin: 40px auto;
+}
+
+.box-shadowed{
+	box-shadow: 2px 5px 5px rgb(30, 30, 30); 
+	padding: 20px 40px;
+	text-align : center;
+	margin: 15px 15px;
+	background-color:white;
+	border-radius:3px;
+}
+
+
+/*media queries*/
+
+@media (max-width: 760px){
+	.container{
+		width:600px;
+	}
+
+@media (max-width: 500px){
+	.container{
+		width: 400px;
+	}
+
